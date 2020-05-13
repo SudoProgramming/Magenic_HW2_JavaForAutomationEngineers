@@ -1,11 +1,8 @@
 /**
- * TODO HOMEWORK CHECKLIST:
- *      [ ] Correct the set method in Square
- *      [ ] Fix the main method in the Square Class
+ * TODO FOR HOMEWORK - Rectangle.java
  *      [ ] Update both the set method for rectangle like you did for square
  *      [ ] Write the setters for the Rectangle Class
  *      [ ] Write methods for the Rectangle Class
- *      [ ] Write the Triangle Class
  */
 public class Rectangle {
     /**

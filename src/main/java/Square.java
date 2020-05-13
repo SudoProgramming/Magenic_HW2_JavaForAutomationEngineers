@@ -1,3 +1,8 @@
+/**
+ * TODO FOR HOMEWORK - Square.java
+ *      [ ] Correct the setSide method
+ *      [ ] Fix the main method
+ */
 public class Square {
 
     /**
