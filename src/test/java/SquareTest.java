@@ -5,14 +5,11 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
-
 public class SquareTest {
-
     /**
      * This test is for the 'Getters' and 'Setters'
      */
-    @org.testng.annotations.Test
+    @Test
     public void testSquareValidGettersAndSetters() {
         double intendedSide = 7;
 
@@ -24,7 +21,7 @@ public class SquareTest {
     /**
      * This test is a negative test for the 'Getters' and 'Setters'
      */
-    @org.testng.annotations.Test
+    @Test
     public void testSquareInvalidGettersAndSetters() {
         int intendedSide = -7;
 
@@ -36,7 +33,7 @@ public class SquareTest {
     /**
      * This test is for the area
      */
-    @org.testng.annotations.Test
+    @Test
     public void testSquareArea() {
         double sideLength = 4;
         Square square = new Square();
@@ -47,7 +44,7 @@ public class SquareTest {
     /**
      * This test is for the perimeter
      */
-    @org.testng.annotations.Test
+    @Test
     public void testSquarePerimeter() {
         double sideLength = 5;
         Square square = new Square();

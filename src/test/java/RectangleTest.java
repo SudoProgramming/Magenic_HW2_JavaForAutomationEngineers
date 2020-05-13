@@ -5,13 +5,11 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
-
 public class RectangleTest {
     /**
      * This test is for the 'Getters' and 'Setters'
      */
-    @org.testng.annotations.Test
+    @Test
     public void testRectangleValidGettersAndSetters() {
         double intendedWidth = 7;
         double intendedLength = 5;
@@ -29,7 +27,7 @@ public class RectangleTest {
     /**
      * This test is a negative test for the 'Getters' and 'Setters'
      */
-    @org.testng.annotations.Test
+    @Test
     public void testRectangleInvalidGettersAndSetters() {
         double intendedWidth = -3;
         double intendedLength = -4;
@@ -47,7 +45,7 @@ public class RectangleTest {
     /**
      * This test is for the area
      */
-    @org.testng.annotations.Test
+    @Test
     public void testRectangleArea() {
         double width = 7;
         double length = 5;
@@ -61,7 +59,7 @@ public class RectangleTest {
     /**
      * This test is for the perimeter
      */
-    @org.testng.annotations.Test
+    @Test
     public void testRectanglePerimeter() {
         double width = 2;
         double length = 9;

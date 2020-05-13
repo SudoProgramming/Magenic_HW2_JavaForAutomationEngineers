@@ -4,13 +4,11 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
-
 public class EquilateralTriangleTest {
     /**
      * This test is for the 'Getters' and 'Setters'
      */
-    @org.testng.annotations.Test
+    @Test
     public void testTriangleValidGettersAndSetters() {
         double intendedBase = 8;
 
@@ -23,7 +21,7 @@ public class EquilateralTriangleTest {
     /**
      * This test is a negative test for the 'Getters' and 'Setters'
      */
-    @org.testng.annotations.Test
+    @Test
     public void testTriangleInvalidGettersAndSetters() {
         double intendedBase = -4;
 
@@ -36,7 +34,7 @@ public class EquilateralTriangleTest {
     /**
      * This test is for the area
      */
-    @org.testng.annotations.Test
+    @Test
     public void testTriangleArea() {
         double base = 5;
         double height = Math.sqrt(3) * base / 2;
@@ -49,7 +47,7 @@ public class EquilateralTriangleTest {
     /**
      * This test is for the perimeter
      */
-    @org.testng.annotations.Test
+    @Test
     public void testTrianglePerimeter() {
         double base = 9;
         EquilateralTriangle triangle = new EquilateralTriangle();
