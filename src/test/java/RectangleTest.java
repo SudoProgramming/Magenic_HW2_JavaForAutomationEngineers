@@ -15,7 +15,7 @@ public class RectangleTest {
         double intendedLength = 5;
 
         Rectangle rectangle = new Rectangle();
-        // TODO FOR HOMEWORK: Uncomment the lines bellow when Rectangle.java is complete
+        // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
 //        rectangle.setWidth(intendedWidth);
 //        rectangle.setLength(intendedLength);
         rectangle.getWidth();
@@ -33,7 +33,7 @@ public class RectangleTest {
         double intendedLength = -4;
 
         Rectangle rectangle = new Rectangle();
-        // TODO FOR HOMEWORK: Uncomment the lines bellow when Rectangle.java is complete
+        // TODO FOR HOMEWORK: Uncomment the lines below when Rectangle.java is complete
 //        rectangle.setWidth(intendedWidth);
 //        rectangle.setLength(intendedLength);
         rectangle.getWidth();
