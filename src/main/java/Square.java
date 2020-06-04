@@ -42,7 +42,7 @@ public class Square {
     }
 
     /**
-     * Calculates the oerimeter of the square object
+     * Calculates the perimeter of the square object
      * @return The perimeter of the square
      */
     public double perimeter() {
