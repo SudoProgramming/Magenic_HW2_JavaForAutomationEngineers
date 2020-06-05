@@ -65,7 +65,7 @@ public class Square {
         double area = 0;
         double perimeter = 0;
 
-        System.out.println("A square with side length of " + s + " has an area of: " + area);
-        System.out.println("A square with side length of " + s + " has a perimeter of: " + perimeter);
+        System.out.println("A square with side length of " + s.getSide() + " has an area of: " + area);
+        System.out.println("A square with side length of " + s.getSide() + " has a perimeter of: " + perimeter);
     }
 }
