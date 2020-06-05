@@ -41,7 +41,7 @@ public class EquilateralTriangleTest {
         EquilateralTriangle triangle = new EquilateralTriangle();
         // TODO FOR HOMEWORK: Uncomment the lines below when EquilateralTriangle.java is complete
 //        triangle.setBase(base);
-//        Assert.assertEquals(triangle.area(), 1/2 * base * height);
+//        Assert.assertEquals(triangle.area(), (base * height)/2);
     }
 
     /**
